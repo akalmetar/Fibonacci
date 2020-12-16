@@ -34,7 +34,7 @@ namespace MiddleLayer
 
                     for (int i = 2; i <= n; i++)
                     {
-                        FiboArray[i] = FiboArray[i - 2] + FiboArray[i - 1];
+                        FiboArray[i] = FiboArray[i - 1] + FiboArray[i - 2];
                     }
 
                     return FiboArray[n];
